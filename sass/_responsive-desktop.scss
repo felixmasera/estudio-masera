@@ -1,0 +1,215 @@
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1000px){
+
+    #header{
+
+        nav{
+
+            ul{
+
+                li{
+
+                    a{
+                    font-size: 20px;
+                    padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Inicio */
+
+    #header{
+
+        .titulo-pagina1{
+            text-align: center;
+            color:white;
+            padding-top: 25vh;
+            font-size: 150px;
+        }
+    }
+
+    .unPocoDeNosotros{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        background-color: #5d4b41;
+
+        .imgReunion{
+
+            img{
+                width: 40%;
+                padding: 10px;
+            }
+
+        }
+
+    }
+
+    .equipo-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        height: 500px;
+
+        .flexImg{
+
+            a{
+
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    /* Nosotros */
+
+    #header{
+
+        .titulo-pagina2{
+            text-align: center;
+            color:white;
+            padding-top: 25vh;
+            font-size: 150px;
+        }
+    }
+
+    /* Equipo */
+
+    #header{
+
+        .titulo-pagina3{
+            text-align: center;
+            color: white;
+            padding-top: 25vh;
+            font-size: 150px;
+        }
+    }
+
+    .equipo{
+
+        .equipo-perfil{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+
+            .equipo-mobile{
+                display: none;
+            }
+
+            .equipo-desktop{
+                display: block;
+                margin: 20px;
+                font-size: 40px;
+            }
+
+            .equipo-descripcion{
+                display: flex;
+                flex-direction: column;
+
+                p{
+                    text-align: start;
+                }
+            }
+
+            .imgPerfil{
+                width: 100%;
+                margin: 10px;
+                width: 400px;
+            }
+
+        }
+
+    }
+
+    /* Servicios */
+
+    #header{
+
+        .titulo-pagina4{
+            text-align: center;
+            color: white;
+            padding-top: 25vh;
+            font-size: 150px;
+        }
+    }
+
+    .servicios{
+
+        .servicios-1{
+            width: 400px;
+            
+
+            p{
+                font-size: 18px;
+                justify-items: center;
+            }
+
+        }
+
+    }
+
+    /* Contacto */
+
+    #header{
+
+        .titulo-pagina5{
+            text-align: center;
+            color:white;
+            padding-top: 25vh;
+            font-size: 150px;
+        }
+    }
+
+    .info{
+        background-color: black;
+        width: 630px;
+        margin: auto;
+
+        .info-formas{
+            justify-items: center;
+            margin: auto;
+
+            .info-prueba{
+                padding: 10px;
+                width: 70%;
+                height: 200px;
+                display: flex;
+                border-radius: 10px;
+            }
+
+        }
+
+        .info-direccion{
+            margin-top: 80px;
+
+            .info-img{
+                width: 30%;
+            }
+
+        }
+
+        .info-wp{
+            
+            .info-img{
+                width: 60%;
+            }
+
+        }
+
+        .info-telefono{
+
+            .info-img{
+                width: 50%;
+            }
+            
+        }
+
+    }
+
+}

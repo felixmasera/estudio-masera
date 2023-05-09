@@ -1,0 +1,58 @@
+/* NOSOTROS */
+
+#header{
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+        animation: titulo 4s;
+    }
+
+    .titulo-pagina2{
+        color: white;
+        font-size: 80px;
+        padding-top: 40vh;
+    }
+
+}
+
+@keyframes titulo{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.historia{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    border: 10px solid $colorPrincipal;
+    padding: 15px;
+
+    .historia-titulo{
+
+        h2{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+    }
+
+    .historia-p{
+        border-top: 1px solid black;
+        padding-top: 20px;
+
+        p{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+}

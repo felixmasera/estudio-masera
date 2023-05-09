@@ -1,0 +1,157 @@
+/* CONTACTO */
+
+#header{
+
+    .titulo-pagina5{
+        color: white;
+        font-size: 80px;
+        padding-top: 40vh;
+    }
+
+}
+
+.contenedor-formulario{
+    padding: 20px;
+    text-align: center;
+
+    .form-label{
+        display: block;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        font-weight: bolder;
+        padding-bottom: 5px;
+    }
+
+    .formulario{
+        background-color: $colorPrincipal;
+        width: 90%;
+        max-width: 650px;
+        margin: auto;
+        padding: 5px 35px;
+        margin-top: 30px;
+        border-radius: 3px;
+
+        .form-textarea{
+            background-color: rgba(0, 0, 0, 0.301);
+            border: none;
+            outline: none;
+            border-bottom: 2px solid white;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+            font-size: 18px;
+            color: white;
+        }
+
+        .form-input{
+            background-color: rgba(0, 0, 0, 0.301);
+            border: none;
+            outline: none;
+            border-bottom: 2px solid white;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+            font-size: 18px;
+            color: white;
+        }
+
+        .form-header{
+
+            .form-titulo{
+                color: white;
+                font-size: 30px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+
+        }
+
+        .form-textarea{
+            resize: vertical;
+            height: 200px;
+            max-height: 300px;
+            min-height: 50px;
+        }
+        
+        .form-boton{
+            width: 100%;
+            outline: none;
+            background-color: $colorPrincipal;
+            font-size: 16px;
+            color: white;
+            padding: 15px 0;
+            cursor: pointer;
+            transition: all .5s ease;
+
+            &:hover{
+                background-color: $colorPrincipal;
+            }
+
+        }
+
+    }   
+    
+}
+
+.info{
+    background-color: $colorPrincipal;
+
+    .info-formas{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+        .info-prueba{
+            background-color: white;
+            width: 70%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 48% 52% 31% 69% / 68% 33% 67% 32%;
+        }
+
+        .info-direccion, .info-wp, .info-telefono{
+            font-size: 25px;
+            margin: 20px 0;
+            margin-top: 80px;
+            display: grid;
+            justify-items: center;
+        }
+
+        .info-direccion{
+            text-align: center;
+            margin-top: 70px;
+
+            .info-img{
+                width: 25%;
+            }
+
+        }
+
+        .info-wp{
+
+            .info-img{
+                width: 25%;
+            }
+        }
+
+        .info-telefono{
+            margin-bottom: 90px;
+            
+            .info-img{
+                width: 20%;
+            }
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+    }
+
+}

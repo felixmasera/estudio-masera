@@ -1,0 +1,180 @@
+/* RESPONSIVE TABLET */
+
+@media screen and (min-width: 768px){
+
+    /* Inicio */
+
+    #header{
+
+        .titulo-pagina1{
+            text-align: center;
+            color:white;
+            font-size: 100px;
+            padding-top: 45vh;
+        }
+
+    }
+
+    .unPocoDeNosotros{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        background-color: $colorPrincipal;
+
+        .presentacion{
+            background-image: none;
+
+            p{
+                padding: 10px;
+                font-size: 20px;
+            }
+
+        }
+
+        .imgReunion{
+            display:contents;
+            width: 100%;
+
+            img{
+                width: 80%;
+                padding: 10px;
+            }
+
+        }
+
+    }
+
+    .equipo-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        height: auto;
+
+        .flexImg{
+
+            a{
+
+                img{
+                    width: 80%;
+                }
+
+            }
+
+        }
+
+    }
+
+    /* Nosotros */
+
+    #header{
+
+        .titulo-pagina2{
+            text-align: center;
+            color: white;
+            font-size: 120px;
+            padding-top: 45vh;
+        }
+
+    }
+
+    /* Equipo */
+
+    #header{
+
+        .titulo-pagina3{
+            text-align: center;
+            color: white;
+            font-size: 120px;
+            padding-top: 45vh;
+        }
+
+    }
+
+    .equipo{
+
+        .imgPerfil{
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+    }
+    
+    /* Servicios */
+
+    #header{
+
+        .titulo-pagina4{
+            text-align: center;
+            color: white;
+            font-size: 120px;
+            padding-top: 45vh;
+        }
+
+    }
+
+    .servicios{
+        grid-template-columns: 1fr 1fr;
+
+        .servicios-1:nth-child(5){
+            grid-column: 1/3;
+        }
+    }
+
+    /* Contacto */
+
+    #header{
+
+        .titulo-pagina5{
+            text-align: center;
+            color: white;
+            font-size: 120px;
+            padding-top: 45vh;
+        }
+
+    }
+    
+    .info{
+
+        .info-formas{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .info-prueba{
+                padding: 10px;
+                width: 70%;
+                height: 200px;
+                display: flex;
+                border-radius: 10px;
+            }
+
+            .info-direccion{
+                margin-top: 80px;
+
+                .info-img{
+                    width: 35%;
+                }
+
+            }
+
+            .info-wp{
+
+                .info-img{
+                    width: 50%;
+                }
+            }
+
+            .info-telefono{
+
+                .info-img{
+                    width: 50%;
+                }
+            }
+
+        }
+
+    }
+
+
+}

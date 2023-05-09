@@ -1,0 +1,30 @@
+/* SERVICIOS */
+
+#header{
+
+    .titulo-pagina4{
+        color: black;
+        font-size: 80px;
+        padding-top: 40vh;
+    }
+
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: auto;
+
+    .servicios-1{
+        text-align: center;
+        border: 1px solid $colorPrincipal;
+        background-color: #ffffff;
+        height: auto;
+        width: 300px;
+        margin: 20px 0;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+}

@@ -1,0 +1,107 @@
+/* BOOTSTRAP */
+/*  */
+/* NAVBAR */ 
+
+#header{
+    background-image: url(../imagenes/personasmirando.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    display: table;
+
+
+    .navbar{
+        position: sticky;
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .navbar-dark{
+        background: $colorPrincipal;
+    }
+
+    nav{
+
+        ul{
+
+            li{
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+/* FOOTER */
+
+footer{
+
+    .card{
+        padding: 2% 7%;
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            a{
+                color:$colorPrincipal;
+                text-decoration: none;
+
+                &:hover{
+                    color: black;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        hr{
+            border-width: 3px;
+        }
+
+        .social{
+            
+            i{
+                padding: 1%;
+                font-size: 15px;
+
+                &:hover{
+                    color: $colorPrincipal;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .heading{
+            font-family: 'Titillium Web';
+            color: black;
+            text-decoration: none;
+        }
+
+        .divider{
+            border-top: 2px solid;
+            margin-bottom: 20px;
+        }
+
+    }
+
+}

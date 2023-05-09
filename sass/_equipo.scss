@@ -1,0 +1,47 @@
+/* EQUIPO */
+
+#header{
+
+    .titulo-pagina3{
+        color: white;
+        font-size: 80px;
+        padding-top: 40vh;
+    }
+}
+
+.equipo{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .imgPerfil{
+        width: 60%;
+        margin-bottom: px;
+    }
+
+    .equipo-perfil{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        border: 10px solid $colorPrincipal;
+
+        p{
+            color: black;
+            font-weight: 600;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        .equipo-mobile{
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 50px;
+        }
+
+        .equipo-desktop{
+            display: none;
+        }
+
+    }
+
+}
