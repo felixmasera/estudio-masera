@@ -91,7 +91,7 @@
 }
 
 .contactanos {
-  background-image: url(../imagenes/contrato2.jpg);
+  background-image: url(../imagenes/contrato.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -678,3 +678,8 @@ footer .card .divider {
     width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
+
+
+.lugar{
+  width: 100%;
+}
